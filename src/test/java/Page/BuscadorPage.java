@@ -37,7 +37,7 @@ public class BuscadorPage extends BaseClass {
     }
 
     public Boolean ValidarBusqueda(){
-        esperaXSegundos(3000);
+        esperaXSegundos(4000);
         return estaHabilitado(locatorTxtBuscador);
     }
 
