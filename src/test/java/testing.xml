@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test thread-count="5" name="Betzabet_Giuffra_Prueba2">
+        <classes>
+            <class name="Tests.CasosPrueba">
+                <methods>
+                    <include name="CP001_ValidarSucursalVirtual_IngresoLogin"/>
+                    <include name="CP002_ValidarSucursalVirtual_LoginFallido"/>
+                    <include name="CP003_ValidarSucursalVirtual_RecuperacionContrasena"/>
+                    <include name="CP004_ValidarProductos_Persona"/>
+                    <include name="CP005_ValidarProductos_Empresa"/>
+                    <include name="CP006_ValidarBuscador_VTR"/>
+                    <include name="CP007_ValidarDeudaPendiente"/>
+                    <include name="CP008_ValidarEstadoDeTusServicios"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
